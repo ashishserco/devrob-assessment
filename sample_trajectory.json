@@ -1,0 +1,24 @@
+{
+  "robot": "NovaTech RT-500",
+  "firmware_version": "3.2",
+  "base_frame": [0, 0, 0, 0, 0, 0],
+  "tool_frame": [0, 0, 150, 0, 0, 0],
+  "trajectory": [
+    {
+      "type": "linear",
+      "position": [500.0, 200.0, 300.0, 0.0, 90.0, 0.0],
+      "speed": 100,
+      "acceleration": 75
+    },
+    {
+      "type": "joint",
+      "joints": [45.0, -30.0, 60.0, 0.0, 45.0, 180.0],
+      "speed": 50
+    },
+    {
+      "type": "linear",
+      "position": [600.0, 250.0, 100.0, 45.0, 90.0, -45.0],
+      "speed": 200
+    }
+  ]
+}
